@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3%;
+}
+
+h1, 
+footer {
+    background-color: lightpink;
+    padding: 5%;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    border: 2px solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  /* Utility Classe */
+  .padded { padding:5%;}
+  .padded-1 { padding: 1rem;}
+  
+  .bg-featured {background-color: #341f97;}
+  .bg-light {backgruound-color: white;}
+  .light-text {
+    color: white;
+  }
+  section {
+    border: 2px solid black;
+  }
+  
+  div {
+    border: 1px solid grey;
+  }
+  
+  /* Universal Styles */
+  h2, h3, h4,h5,h6 {
+    line-height: 1.1;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  } 
+  
+  p {
+    line-height: 1.2;
+    margin-bottom:1rem;
+  }
+  
+  a {
+    font-size: 0.9rem;
+     color: inherit;
+    text-decoration: none;
+  }
+  
+  /* background images */
+  
+  .bg-image {
+    background-color:lightblue;
+    background-image: url('https://source.unsplash.com/EPr4Lbco5Qc');
+    background-size:cover;
+    padding:0.5rem;
+    padding-bottom: 48%;
+    background-position: center;
+    color:white;
+    }
+  
+  .bg-image span {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+   /* Card Styles */
+  
+  .card {background-color: white;
+  padding:0;
+  }
+  .post-info {
+    padding:  1rem;
+  }
